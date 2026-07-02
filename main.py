@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-POLLINATIONS_API_KEY = "sk_hbfqvgDwP4HtIGirEc0EZIzdZWzrrHEO"
+POLLINATIONS_API_KEY = ""
 
 class RenderInput(BaseModel):
     prompt: str
